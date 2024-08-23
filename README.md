@@ -31,26 +31,26 @@ A tooltip was added to the completion drop-down list suggestions to display the 
 
 **Addition of fuzzy matching to the autocompletion feature :**
 A fuzzy search option was added to the autocomplete feature, allowing users to find approximate matches rather than exact ones for their search queries. Additionally, results are displayed even if caps lock is on or words are capitalized. The fuzzy search functions with the autocompletion prefix, whether it's enabled (matching objects by the prefix entered in the search box) or disabled. Additionally a checkbox was added in GUI tab in the preference dialog to enable and disable fuzzy matching.
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
+![alt text](image4.png)
+![alt text](image5.png)
+![alt text](image6.png)
 
 **Addition of checkbox for clearing and resseting the help/autocompletion index :**
 A checkbox has been introduced, providing users with the option to clear and reset the help/autocompletion index. This feature enhances the user experience by offering a straightforward way to refresh or restart the index, instead of having to do it manually by searching the necessary files and deleting them. Users can choose to reset index along with clearing 
 
-![alt text](image-7.png)
+![alt text](image7.png)
 
 **Addition of issue/feedback tab to preference dialog :**
 A new "Issue" tab has been added to the existing four tabs in the preferences dialog, allowing users to submit issues or feedback directly to the Purr Data GitHub repository. Users must be logged into GitHub to use this feature. When the submit button is clicked, the issue creation page for Purr Data opens in the user's default browser with all relevant fields pre-filled.
 
-![alt text](image-8.png)
-![alt text](image-9.png)
+![alt text](image8.png)
+![alt text](image9.png)
 
 
 **Addition of error detection for incorrect object queries in the autocompletion search box:**
 
 A feature has been implemented to detect errors when users enter incorrect object queries in the autocompletion search box. When a wrong query is detected, it is highlighted with a squiggly red underline, enabling users to quickly identify and correct the mistake, thereby enhancing the overall search experience.
-![alt text](image-10.png)
+![alt text](image10.png)
 
 
 
