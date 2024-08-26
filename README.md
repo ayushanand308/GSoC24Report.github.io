@@ -3,11 +3,10 @@ Final report about the project "Incrementally improve the auto-complete feature"
 
 ## Project Overview
 
-This project was aimed at incrementally improve the existing Auto-Completion feature in Purr Data with a series of bug fixes and enhancements to better its UX. The project was successfully completed with all the milestones achieved except a few.
+This project was aimed at incrementally improving the existing Auto-Completion feature in Purr Data with a series of bug fixes and enhancements to better its UX. The project was successfully completed with all the milestones achieved except a few.
 
 ***
-The first phase of the project was majorly focused on fixing the existing bugs in the Auto-Completion feature and enhancing the UX of the feature. The following milestones were achieved in the first phase:
-
+Here are the changes and additions made during the contribution period
 - Addition of Scroll bar to the completion drop-down list 
 
 The drop-down list for auto-completion had a fixed size of 8 items which was not enough to display all the items in the list. This was fixed by adding a scroll bar to the drop-down list so that the user can scroll through the list to view all the items.
@@ -48,23 +47,12 @@ A new "Issue" tab has been added to the existing four tabs in the preferences di
 ![alt text](image8.png)
 
 
-- Addition of error detection for incorrect object queries in the autocompletion search box
+## Code
+[**Link to the Pull request and commit of all the changes made**](https://github.com/agraef/purr-data/compare/3e28a71e618b8c2a53142bc5ef8cb34104e909dc...ayush-gsoc24-submission)
 
-A feature has been implemented to detect errors when users enter incorrect object queries in the autocompletion search box. When a wrong query is detected, it is highlighted with a squiggly red underline, enabling users to quickly identify and correct the mistake, thereby enhancing the overall search experience.
+## Future Enhancements
+The tooltip for the completion object can be made better by adding the inlets,outlets and arguments required by the object.
 
-![alt text](image10.png)
-
-
-
-## Pull request and commit of all the changes made 
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-
+## Acknowledgement
+Working on this year’s GSoC project was a blast. I had a great time thanks to my mentor Albert Gräf, and the help from Jonathan Wilkes and Matt Barber made everything go smoothly.
 
